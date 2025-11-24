@@ -15,7 +15,7 @@ my_string= input("Enter a word\n>")
 num_vowels=0
 for char in my_string:
     if char in ["a", "e", "i", "o", "u"]:
-        num_vowel+=1
+        num_vowels+=1
 print(num_vowels)
 
 user_num = input("Enter an integer")
